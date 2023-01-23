@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(bg.jpg);
+    background-size: cover;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.hd{
+    height: 10vh;
+}
+.div1{
+    width:20vw ;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fe7201;
+    font-size: 1.4em;
+}
+.div2{
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+}
+.div1,.div2{
+    float: left;
+}
+.div2 li{
+    list-style-type: none;
+    float: left;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+/* !MAIN */
+.div3{
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.div4{
+    width: calc(100vw - 70vw);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.div3,.div4{
+    float: left;
+}
+.mainH{
+    font-size: 40px;
+}
+.btn{
+    width: fit-content;
+    padding: 10px;
+    margin: 0 10%;
+    background: #fe7201;
+    border:1px solid #fe7201 ;
+    border-radius: 4px;
+}
+.div5{
+    width: 100%;
+    background-color: rgba(7,7,7,1.0);
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    right: 4vw;
+    box-shadow: 0px 0px 6px  #fe7201;
+
+}
+input{
+    background: transparent;
+    border: 1px solid #fe7201 ;
+    width: calc(90% * 30vw);
+    padding: 7px;
+    color:  #fe7201 ;
+    border-radius: 5px;
+}
+input::placeholder{
+    color:  #fe7201 ;
+}
+input:focus{
+    
+    border-color: #fe7201;
+}
+.btn2{
+    background-color: #fe7201;
+    padding: 8px;
+    border: 1px solid  #fe7201 ;
+    border-radius: 4px;
+    margin: 0 ;
+    width:24vw;
+}
+.fa-twitter:hover,.fa-facebook:hover{
+    color: blue;
+}
+.icons{
+    display: flex;
+    padding:0 19px;
+    justify-content: space-around;
+    width: 100%;
+}
